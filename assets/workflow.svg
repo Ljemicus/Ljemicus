@@ -1,39 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="210" viewBox="0 0 1280 210" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="330" viewBox="0 0 1280 330" role="img" aria-labelledby="title desc">
   <title id="title">Niko Miljanić's delivery workflow</title>
-  <desc id="desc">Outcome, contract, build, prove, and handover connected in a reliable delivery workflow.</desc>
-  <rect width="1280" height="210" rx="24" fill="#171717"/>
-  <g font-family="Avenir Next, Segoe UI, sans-serif">
-    <text x="42" y="43" fill="#F3EFE6" font-size="15" font-weight="700" letter-spacing="3.5">DELIVERY SYSTEM / 01—05</text>
-    <g transform="translate(42 79)">
-      <g>
-        <rect width="208" height="86" rx="12" fill="#242424"/>
-        <text x="18" y="32" fill="#E63323" font-size="14" font-weight="800" letter-spacing="2">01</text>
-        <text x="18" y="62" fill="#F3EFE6" font-size="22" font-weight="750">Outcome</text>
-      </g>
-      <path d="M216 43h28" stroke="#E63323" stroke-width="3"/>
-      <g transform="translate(252)">
-        <rect width="208" height="86" rx="12" fill="#242424"/>
-        <text x="18" y="32" fill="#E63323" font-size="14" font-weight="800" letter-spacing="2">02</text>
-        <text x="18" y="62" fill="#F3EFE6" font-size="22" font-weight="750">Contract</text>
-      </g>
-      <path d="M468 43h28" stroke="#E63323" stroke-width="3"/>
-      <g transform="translate(504)">
-        <rect width="208" height="86" rx="12" fill="#242424"/>
-        <text x="18" y="32" fill="#E63323" font-size="14" font-weight="800" letter-spacing="2">03</text>
-        <text x="18" y="62" fill="#F3EFE6" font-size="22" font-weight="750">Build</text>
-      </g>
-      <path d="M720 43h28" stroke="#E63323" stroke-width="3"/>
-      <g transform="translate(756)">
-        <rect width="208" height="86" rx="12" fill="#242424"/>
-        <text x="18" y="32" fill="#E63323" font-size="14" font-weight="800" letter-spacing="2">04</text>
-        <text x="18" y="62" fill="#F3EFE6" font-size="22" font-weight="750">Prove</text>
-      </g>
-      <path d="M972 43h28" stroke="#E63323" stroke-width="3"/>
-      <g transform="translate(1008)">
-        <rect width="188" height="86" rx="12" fill="#E63323"/>
-        <text x="18" y="32" fill="#171717" font-size="14" font-weight="800" letter-spacing="2">05</text>
-        <text x="18" y="62" fill="#171717" font-size="22" font-weight="800">Handover</text>
-      </g>
+  <desc id="desc">Outcome, contract, build, prove, and handover arranged as a five-step delivery path.</desc>
+
+  <rect width="1280" height="330" rx="28" fill="#F3EFE6"/>
+  <rect x="1" y="1" width="1278" height="328" rx="27" fill="none" stroke="#171717" stroke-opacity=".16"/>
+  <text x="44" y="48" fill="#171717" font-family="Avenir Next, Segoe UI, sans-serif" font-size="16" font-weight="750" letter-spacing="3.5">DELIVERY PATH / EVIDENCE BEFORE CLAIMS</text>
+
+  <g transform="translate(42 78)" font-family="Avenir Next, Segoe UI, sans-serif">
+    <g>
+      <rect width="368" height="96" rx="19" fill="#171717"/>
+      <text x="24" y="37" fill="#E63323" font-size="16" font-weight="800" letter-spacing="2.4">01</text>
+      <text x="24" y="75" fill="#F3EFE6" font-size="31" font-weight="800">Outcome</text>
+    </g>
+    <path d="M376 48h36" stroke="#E63323" stroke-width="5"/>
+    <g transform="translate(420)">
+      <rect width="368" height="96" rx="19" fill="#171717"/>
+      <text x="24" y="37" fill="#E63323" font-size="16" font-weight="800" letter-spacing="2.4">02</text>
+      <text x="24" y="75" fill="#F3EFE6" font-size="31" font-weight="800">Contract</text>
+    </g>
+    <path d="M796 48h36" stroke="#E63323" stroke-width="5"/>
+    <g transform="translate(840)">
+      <rect width="368" height="96" rx="19" fill="#171717"/>
+      <text x="24" y="37" fill="#E63323" font-size="16" font-weight="800" letter-spacing="2.4">03</text>
+      <text x="24" y="75" fill="#F3EFE6" font-size="31" font-weight="800">Build</text>
+    </g>
+
+    <g transform="translate(210 116)">
+      <rect width="368" height="96" rx="19" fill="#171717"/>
+      <text x="24" y="37" fill="#E63323" font-size="16" font-weight="800" letter-spacing="2.4">04</text>
+      <text x="24" y="75" fill="#F3EFE6" font-size="31" font-weight="800">Prove</text>
+    </g>
+    <path d="M586 164h36" stroke="#E63323" stroke-width="5"/>
+    <g transform="translate(630 116)">
+      <rect width="368" height="96" rx="19" fill="#E63323"/>
+      <text x="24" y="37" fill="#171717" font-size="16" font-weight="800" letter-spacing="2.4">05</text>
+      <text x="24" y="75" fill="#171717" font-size="31" font-weight="800">Handover</text>
     </g>
   </g>
 </svg>

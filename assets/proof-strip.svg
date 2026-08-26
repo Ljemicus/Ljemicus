@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="310" viewBox="0 0 1280 310" role="img" aria-labelledby="title desc">
+  <title id="title">Proof and working context</title>
+  <desc id="desc">Four proof points: thirteen years of operational context, five document formats, 89.42 percent reference pipeline coverage, and three working languages.</desc>
+
+  <rect width="1280" height="310" rx="28" fill="#171717"/>
+  <rect x="10" y="10" width="1260" height="290" rx="20" fill="#202020" stroke="#F3EFE6" stroke-opacity=".12"/>
+  <path d="M640 34v242M34 155h1212" stroke="#F3EFE6" stroke-opacity=".14"/>
+
+  <g font-family="Avenir Next, Segoe UI, sans-serif">
+    <g transform="translate(54 48)">
+      <text fill="#E63323" font-size="50" font-weight="800">13 YEARS</text>
+      <text y="37" fill="#F3EFE6" font-size="17" font-weight="700" letter-spacing="2.8">OPERATIONAL CONTEXT</text>
+    </g>
+    <g transform="translate(688 48)">
+      <text fill="#F3EFE6" font-size="50" font-weight="800">5 FORMATS</text>
+      <text y="37" fill="#F3EFE6" font-size="17" font-weight="700" letter-spacing="2.8">MD · HTML · RST · XML · PDF</text>
+    </g>
+    <g transform="translate(54 194)">
+      <text fill="#F3EFE6" font-size="50" font-weight="800">89.42%</text>
+      <text y="37" fill="#F3EFE6" font-size="17" font-weight="700" letter-spacing="2.8">REFERENCE-PIPELINE COVERAGE</text>
+    </g>
+    <g transform="translate(688 194)">
+      <text fill="#E63323" font-size="50" font-weight="800">3 LANGUAGES</text>
+      <text y="37" fill="#F3EFE6" font-size="17" font-weight="700" letter-spacing="2.8">HR · EN · IT</text>
+    </g>
+  </g>
+
+  <rect x="1221" y="28" width="25" height="25" fill="#E63323"/>
+</svg>

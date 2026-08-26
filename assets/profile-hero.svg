@@ -1,30 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
   <title id="title">Niko Miljanić — Product engineer and operator</title>
-  <desc id="desc">Editorial profile banner in warm paper, black ink, and signal red.</desc>
+  <desc id="desc">Editorial profile banner in warm paper, black ink, and signal red, showing a path from operations to reliable systems.</desc>
 
-  <rect width="1280" height="460" rx="28" fill="#F3EFE6"/>
-  <rect x="1" y="1" width="1278" height="458" rx="27" fill="none" stroke="#171717" stroke-opacity=".16"/>
-  <rect x="34" y="34" width="1212" height="8" rx="4" fill="#E63323"/>
+  <rect width="1280" height="520" rx="32" fill="#F3EFE6"/>
+  <rect x="1" y="1" width="1278" height="518" rx="31" fill="none" stroke="#171717" stroke-opacity=".16"/>
+  <path d="M34 42h1212" stroke="#E63323" stroke-width="8" stroke-linecap="round"/>
+
+  <g opacity=".08" stroke="#171717">
+    <path d="M52 104h790M52 440h790"/>
+    <path d="M52 104v336M250 104v336M448 104v336M646 104v336M842 104v336"/>
+  </g>
 
   <g fill="#171717" font-family="Avenir Next, Segoe UI, sans-serif">
-    <text x="52" y="91" font-size="21" font-weight="700" letter-spacing="4.5">PRODUCT ENGINEER / OPERATIONS-LED</text>
-    <text x="50" y="223" font-size="118" font-weight="800" letter-spacing="-5">NIKO</text>
-    <text x="50" y="342" font-size="118" font-weight="800" letter-spacing="-5">MILJANIĆ</text>
+    <text x="54" y="93" font-size="17" font-weight="750" letter-spacing="4.2">CASE FILE / NM—01</text>
+    <text x="50" y="234" font-size="126" font-weight="800" letter-spacing="-6">NIKO</text>
+    <text x="50" y="365" font-size="126" font-weight="800" letter-spacing="-6">MILJANIĆ</text>
+    <text x="54" y="414" font-size="20" font-weight="700" letter-spacing="3.6">PRODUCT ENGINEER / OPERATIONS-LED</text>
   </g>
 
-  <g transform="translate(973 80)">
-    <circle cx="126" cy="126" r="126" fill="#171717"/>
-    <circle cx="126" cy="126" r="86" fill="none" stroke="#F3EFE6" stroke-opacity=".3" stroke-width="2"/>
-    <path d="M40 126h172M126 40v172" stroke="#F3EFE6" stroke-opacity=".24" stroke-width="2"/>
-    <path d="M78 158 111 125l28 28 55-65" fill="none" stroke="#F3EFE6" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter"/>
-    <rect x="184" y="78" width="23" height="23" fill="#E63323"/>
+  <g transform="translate(894 78)">
+    <rect width="334" height="346" rx="34" fill="#171717" opacity=".12"/>
+    <rect x="8" y="8" width="318" height="330" rx="27" fill="#171717"/>
+    <rect x="28" y="28" width="278" height="290" rx="20" fill="#202020"/>
+    <rect x="258" y="32" width="34" height="34" fill="#E63323"/>
+
+    <g font-family="Avenir Next, Segoe UI, sans-serif">
+      <text x="50" y="79" fill="#F3EFE6" font-size="14" font-weight="750" letter-spacing="3.2">TRAJECTORY</text>
+      <text x="50" y="137" fill="#F3EFE6" font-size="43" font-weight="800">OPS</text>
+      <path d="M51 161h224" stroke="#F3EFE6" stroke-opacity=".18"/>
+      <path d="M54 249 108 204l44 35 86-91 44 33" fill="none" stroke="#F3EFE6" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter"/>
+      <rect x="231" y="137" width="17" height="17" fill="#E63323"/>
+      <text x="50" y="292" fill="#E63323" font-size="43" font-weight="800">SYSTEMS</text>
+    </g>
   </g>
 
-  <line x1="52" y1="387" x2="1228" y2="387" stroke="#171717" stroke-opacity=".22"/>
-  <g fill="#171717" font-family="Avenir Next, Segoe UI, sans-serif" font-size="17" font-weight="650" letter-spacing="2.2">
-    <text x="52" y="423">SYSTEMS</text>
-    <text x="200" y="423">AUTOMATION</text>
-    <text x="408" y="423">RELIABLE DELIVERY</text>
-    <text x="1012" y="423">RIJEKA / EUROPE</text>
+  <line x1="52" y1="466" x2="1228" y2="466" stroke="#171717" stroke-opacity=".24"/>
+  <g fill="#171717" font-family="Avenir Next, Segoe UI, sans-serif" font-size="16" font-weight="700" letter-spacing="2.1">
+    <text x="52" y="499">PYTHON</text>
+    <text x="186" y="499">TYPESCRIPT</text>
+    <text x="374" y="499">AUTOMATION</text>
+    <text x="579" y="499">RELIABLE DELIVERY</text>
+    <text x="1038" y="499">RIJEKA / EUROPE</text>
   </g>
 </svg>

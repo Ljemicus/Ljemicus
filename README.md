@@ -3,14 +3,14 @@
 </p>
 
 <p align="center">
-  <a href="https://ljemicus.vercel.app"><strong>Selected work</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/niko-miljani%C4%87-bab97929a"><strong>LinkedIn</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Ljemicus/document-migration-pipeline"><strong>Migration pipeline</strong></a>
+  <a href="https://ljemicus.vercel.app"><strong>Selected work ↗</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/niko-miljani%C4%87-bab97929a"><strong>LinkedIn ↗</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/Ljemicus/document-migration-pipeline"><strong>Migration pipeline ↗</strong></a>
 </p>
 
-<h3 align="center">I turn messy operational workflows into shipped, testable systems.</h3>
+<h2 align="center">I turn messy operational workflows into shipped, testable systems.</h2>
 
 <p align="center">
   Thirteen years in client-facing operations taught me where software fails outside the demo.<br/>
@@ -19,50 +19,51 @@
 
 <br/>
 
-## 01 / Selected systems
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <sub>PYTHON · DOCUMENT INFRASTRUCTURE</sub>
-      <h3><a href="https://github.com/Ljemicus/document-migration-pipeline">Document Migration Pipeline →</a></h3>
-      <p>Deterministic conversion of Markdown, HTML, RST, XML, and PDF sources into GitBook-ready Markdown.</p>
-      <p><strong>Proof:</strong> link rewriting, validation, content hashes, dry runs, manifests, reports, 9 tests, multi-version CI.</p>
-    </td>
-    <td width="50%" valign="top">
-      <sub>NEXT.JS · POSTGRESQL · PRODUCT</sub>
-      <h3><a href="https://github.com/Ljemicus/petpark-hr">PetPark Marketplace →</a></h3>
-      <p>Croatian pet-services marketplace with authentication, bookings, realtime messaging, responsive interfaces, and operational tooling.</p>
-      <p><strong>Status:</strong> primary product focus, moving through launch preparation toward real operation.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <sub>TYPESCRIPT · PRIVACY BOUNDARIES</sub>
-      <h3><a href="https://github.com/Ljemicus/midnight-consent-demo">Midnight Consent Demo →</a></h3>
-      <p>Small research implementation showing how to expose a verified fact without exposing its underlying private record.</p>
-      <p><strong>Boundary:</strong> tested mock and Compact sketch; explicitly not presented as production cryptography.</p>
-    </td>
-    <td width="50%" valign="top">
-      <sub>REACT NATIVE · MOBILE DELIVERY</sub>
-      <h3><a href="https://github.com/Ljemicus/petpark-mobile-hr">PetPark Mobile →</a></h3>
-      <p>Expo and React Native companion application for the PetPark marketplace.</p>
-      <p><strong>Focus:</strong> shared product language, sitter discovery, service surfaces, and a coherent web-to-mobile experience.</p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/proof-strip.svg" alt="13 years of operational context; five document formats; 89.42 percent reference-pipeline coverage; three working languages" width="100%" />
+</p>
 
 <br/>
 
-## 02 / The operating range
+## 01 / Selected systems
 
-| Product engineering | Systems & data | Delivery evidence |
-|:--|:--|:--|
-| TypeScript, React, Next.js | REST APIs, webhooks, integrations | Pytest, Vitest, Playwright |
-| Python automation and CLIs | Supabase, PostgreSQL, validation | CI, release checks, dry runs |
-| Responsive web and mobile | Structured content and migrations | Decision logs and handovers |
+<sub>01.1 / PYTHON · DOCUMENT INFRASTRUCTURE</sub>
 
-I am most useful where the requirement is still ambiguous, the workflow crosses people and systems, and “works on my machine” is not a sufficient definition of done.
+### [Document Migration Pipeline →](https://github.com/Ljemicus/document-migration-pipeline)
+
+Deterministic conversion of Markdown, HTML, RST, XML, and PDF sources into GitBook-ready Markdown. The pipeline rewrites links, validates output, records content hashes, supports dry runs, and leaves machine-readable manifests and reports.
+
+> **Evidence:** 9 tests · 89.42% coverage · Python 3.11–3.13 CI · Ruff · package build · gitleaks clean
+
+<br/>
+
+<sub>01.2 / NEXT.JS · POSTGRESQL · PRODUCT</sub>
+
+### [PetPark Marketplace →](https://github.com/Ljemicus/petpark-hr)
+
+A Croatian pet-services marketplace with authentication, bookings, realtime messaging, responsive interfaces, and operational tooling. This is the primary product focus and the project moving toward real operation.
+
+> **Product surface:** marketplace discovery · sitter workflows · booking flows · messaging · operational controls
+
+<br/>
+
+### Supporting builds
+
+**[PetPark Mobile →](https://github.com/Ljemicus/petpark-mobile-hr)** — Expo and React Native companion application carrying the PetPark product language from web to mobile.
+
+**[Midnight Consent Demo →](https://github.com/Ljemicus/midnight-consent-demo)** — Tested research implementation for exposing a verified fact without exposing its underlying private record; clearly bounded as a mock and Compact sketch, not production cryptography.
+
+<br/>
+
+## 02 / Operating range
+
+**PRODUCT ENGINEERING** — `TypeScript` `React` `Next.js` `React Native`
+
+**SYSTEMS & DATA** — `Python` `REST APIs` `Webhooks` `Supabase` `PostgreSQL`
+
+**DELIVERY EVIDENCE** — `Pytest` `Vitest` `Playwright` `CI` `Dry runs` `Decision logs`
+
+> I am most useful where the requirement is still ambiguous, the workflow crosses people and systems, and “works on my machine” is not a sufficient definition of done.
 
 <br/>
 
@@ -72,16 +73,22 @@ I am most useful where the requirement is still ambiguous, the workflow crosses 
   <img src="./assets/workflow.svg" alt="Outcome, contract, build, prove, and handover" width="100%" />
 </p>
 
-- **Outcome** — define the real result and the failure conditions.
-- **Contract** — make boundaries, data, ownership, and acceptance explicit.
-- **Build** — complete the smallest useful path through UI, API, and data.
-- **Prove** — test behavior, edge cases, operational constraints, and release state.
-- **Handover** — leave decisions, evidence, and repeatable tooling behind.
+**01 / Outcome** — define the real result and its failure conditions.<br/>
+**02 / Contract** — make boundaries, data, ownership, and acceptance explicit.<br/>
+**03 / Build** — complete the smallest useful path through UI, API, and data.<br/>
+**04 / Prove** — test behavior, edge cases, operational constraints, and release state.<br/>
+**05 / Handover** — leave decisions, evidence, and repeatable tooling behind.
 
 <br/>
 
 ## 04 / Working together
 
-Based in **Rijeka, Croatia** and available for remote collaboration across European time zones. I work fluently in **Croatian, English, and Italian**.
+<p align="center">
+  <strong>Rijeka, Croatia · Remote across European time zones · Croatian / English / Italian</strong>
+</p>
 
-For migration engineering, integrations, product delivery, or workflow automation, start with the [document migration pipeline](https://github.com/Ljemicus/document-migration-pipeline) or connect on [LinkedIn](https://www.linkedin.com/in/niko-miljani%C4%87-bab97929a).
+<p align="center">
+  For migration engineering, integrations, product delivery, or workflow automation,<br/>
+  start with the <a href="https://github.com/Ljemicus/document-migration-pipeline"><strong>document migration pipeline</strong></a>
+  or connect on <a href="https://www.linkedin.com/in/niko-miljani%C4%87-bab97929a"><strong>LinkedIn</strong></a>.
+</p>
