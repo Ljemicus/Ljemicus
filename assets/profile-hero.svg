@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="title desc">
+  <title id="title">Niko Miljanić — Product engineer and operator</title>
+  <desc id="desc">Editorial profile banner in warm paper, black ink, and signal red.</desc>
+
+  <rect width="1280" height="460" rx="28" fill="#F3EFE6"/>
+  <rect x="1" y="1" width="1278" height="458" rx="27" fill="none" stroke="#171717" stroke-opacity=".16"/>
+  <rect x="34" y="34" width="1212" height="8" rx="4" fill="#E63323"/>
+
+  <g fill="#171717" font-family="Avenir Next, Segoe UI, sans-serif">
+    <text x="52" y="91" font-size="21" font-weight="700" letter-spacing="4.5">PRODUCT ENGINEER / OPERATIONS-LED</text>
+    <text x="50" y="223" font-size="118" font-weight="800" letter-spacing="-5">NIKO</text>
+    <text x="50" y="342" font-size="118" font-weight="800" letter-spacing="-5">MILJANIĆ</text>
+  </g>
+
+  <g transform="translate(973 80)">
+    <circle cx="126" cy="126" r="126" fill="#171717"/>
+    <circle cx="126" cy="126" r="86" fill="none" stroke="#F3EFE6" stroke-opacity=".3" stroke-width="2"/>
+    <path d="M40 126h172M126 40v172" stroke="#F3EFE6" stroke-opacity=".24" stroke-width="2"/>
+    <path d="M78 158 111 125l28 28 55-65" fill="none" stroke="#F3EFE6" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter"/>
+    <rect x="184" y="78" width="23" height="23" fill="#E63323"/>
+  </g>
+
+  <line x1="52" y1="387" x2="1228" y2="387" stroke="#171717" stroke-opacity=".22"/>
+  <g fill="#171717" font-family="Avenir Next, Segoe UI, sans-serif" font-size="17" font-weight="650" letter-spacing="2.2">
+    <text x="52" y="423">SYSTEMS</text>
+    <text x="200" y="423">AUTOMATION</text>
+    <text x="408" y="423">RELIABLE DELIVERY</text>
+    <text x="1012" y="423">RIJEKA / EUROPE</text>
+  </g>
+</svg>

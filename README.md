@@ -1,46 +1,87 @@
-# Niko Miljanić
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="Niko Miljanić — product engineer and operator" width="100%" />
+</p>
 
-**Product engineer focused on automation, integrations, and reliable delivery.**
+<p align="center">
+  <a href="https://ljemicus.vercel.app"><strong>Selected work</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/niko-miljani%C4%87-bab97929a"><strong>LinkedIn</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Ljemicus/document-migration-pipeline"><strong>Migration pipeline</strong></a>
+</p>
 
-I build practical web products and internal tools from ambiguous requirements through implementation, testing, and handover. My engineering work is backed by 13 years of client-facing operations: scoping real workflows, coordinating people, managing expectations, and fixing the parts that fail outside a demo.
+<h3 align="center">I turn messy operational workflows into shipped, testable systems.</h3>
 
-Based in Rijeka, Croatia · Available for remote work across European time zones
+<p align="center">
+  Thirteen years in client-facing operations taught me where software fails outside the demo.<br/>
+  I now use that experience to scope, build, verify, and hand over practical products.
+</p>
 
-[LJEMICUS DIGITAL](https://ljemicus.vercel.app) · [LinkedIn](https://www.linkedin.com/in/niko-miljani%C4%87-bab97929a)
+<br/>
 
----
+## 01 / Selected systems
 
-## Selected work
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>PYTHON · DOCUMENT INFRASTRUCTURE</sub>
+      <h3><a href="https://github.com/Ljemicus/document-migration-pipeline">Document Migration Pipeline →</a></h3>
+      <p>Deterministic conversion of Markdown, HTML, RST, XML, and PDF sources into GitBook-ready Markdown.</p>
+      <p><strong>Proof:</strong> link rewriting, validation, content hashes, dry runs, manifests, reports, 9 tests, multi-version CI.</p>
+    </td>
+    <td width="50%" valign="top">
+      <sub>NEXT.JS · POSTGRESQL · PRODUCT</sub>
+      <h3><a href="https://github.com/Ljemicus/petpark-hr">PetPark Marketplace →</a></h3>
+      <p>Croatian pet-services marketplace with authentication, bookings, realtime messaging, responsive interfaces, and operational tooling.</p>
+      <p><strong>Status:</strong> primary product focus, moving through launch preparation toward real operation.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <sub>TYPESCRIPT · PRIVACY BOUNDARIES</sub>
+      <h3><a href="https://github.com/Ljemicus/midnight-consent-demo">Midnight Consent Demo →</a></h3>
+      <p>Small research implementation showing how to expose a verified fact without exposing its underlying private record.</p>
+      <p><strong>Boundary:</strong> tested mock and Compact sketch; explicitly not presented as production cryptography.</p>
+    </td>
+    <td width="50%" valign="top">
+      <sub>REACT NATIVE · MOBILE DELIVERY</sub>
+      <h3><a href="https://github.com/Ljemicus/petpark-mobile-hr">PetPark Mobile →</a></h3>
+      <p>Expo and React Native companion application for the PetPark marketplace.</p>
+      <p><strong>Focus:</strong> shared product language, sitter discovery, service surfaces, and a coherent web-to-mobile experience.</p>
+    </td>
+  </tr>
+</table>
 
-### [Document Migration Pipeline](https://github.com/Ljemicus/document-migration-pipeline)
+<br/>
 
-Python reference pipeline for converting Markdown, HTML, RST, XML, and PDF sources into deterministic, GitBook-ready Markdown. Includes link rewriting, validation, content hashes, dry runs, machine-readable manifests, migration reports, tests, and CI.
+## 02 / The operating range
 
-### [PetPark marketplace](https://github.com/Ljemicus/petpark-hr)
+| Product engineering | Systems & data | Delivery evidence |
+|:--|:--|:--|
+| TypeScript, React, Next.js | REST APIs, webhooks, integrations | Pytest, Vitest, Playwright |
+| Python automation and CLIs | Supabase, PostgreSQL, validation | CI, release checks, dry runs |
+| Responsive web and mobile | Structured content and migrations | Decision logs and handovers |
 
-TypeScript marketplace for pet services in Croatia using Next.js, Supabase/PostgreSQL, authentication, realtime messaging, API routes, responsive interfaces, Vitest, and Playwright. PetPark is my main product focus and is moving from showcase work toward real operation.
+I am most useful where the requirement is still ambiguous, the workflow crosses people and systems, and “works on my machine” is not a sufficient definition of done.
 
-### [Midnight consent demo](https://github.com/Ljemicus/midnight-consent-demo)
+<br/>
 
-Small privacy-boundary demo exploring how a verified consent or completed-booking fact can be shared without exposing the underlying private record. The README clearly separates the tested mock, the Compact sketch, and what is not production-ready.
+## 03 / How I deliver
 
----
+<p align="center">
+  <img src="./assets/workflow.svg" alt="Outcome, contract, build, prove, and handover" width="100%" />
+</p>
 
-## Engineering focus
+- **Outcome** — define the real result and the failure conditions.
+- **Contract** — make boundaries, data, ownership, and acceptance explicit.
+- **Build** — complete the smallest useful path through UI, API, and data.
+- **Prove** — test behavior, edge cases, operational constraints, and release state.
+- **Handover** — leave decisions, evidence, and repeatable tooling behind.
 
-- TypeScript, React, Next.js, Python
-- REST APIs, webhooks, workflow automation
-- Supabase, PostgreSQL, validation, and data modeling
-- Vitest, Playwright, Pytest, CI, and release verification
-- document conversion, structured data, and reproducible pipelines
-- AI-assisted engineering with explicit acceptance criteria and human review
+<br/>
 
-## How I work
+## 04 / Working together
 
-1. Define the real outcome and failure conditions.
-2. Build the smallest complete path through UI, API, and data.
-3. Test behavior, edge cases, and operational constraints.
-4. Document decisions, evidence, and handover steps.
-5. Turn repeated one-off work into reusable tooling.
+Based in **Rijeka, Croatia** and available for remote collaboration across European time zones. I work fluently in **Croatian, English, and Italian**.
 
-I write and work fluently in Croatian, English, and Italian.
+For migration engineering, integrations, product delivery, or workflow automation, start with the [document migration pipeline](https://github.com/Ljemicus/document-migration-pipeline) or connect on [LinkedIn](https://www.linkedin.com/in/niko-miljani%C4%87-bab97929a).
