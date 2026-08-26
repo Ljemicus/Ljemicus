@@ -55,6 +55,18 @@ A Croatian pet-services marketplace with authentication, bookings, realtime mess
 
 <br/>
 
+### Public application portfolio
+
+**Operations & hospitality** — [MarinaFlow](https://github.com/Ljemicus/marinaflow) · [Hotel Fortunata](https://github.com/Ljemicus/hotel-fortunata-booking)
+
+**Learning & daily practice** — [Učiteljica AI](https://github.com/Ljemicus/uciteljica-ai) · [Zora](https://github.com/Ljemicus/zora)
+
+**Climate & connected systems** — [Solarna mjera](https://github.com/Ljemicus/solarna-mjera) · [Smart Hive Observatory](https://github.com/Ljemicus/smart-hive-observatory)
+
+**Guided journeys & configuration** — [Dental Treatment Journey](https://github.com/Ljemicus/dental-treatment-journey) · [Forma 32](https://github.com/Ljemicus/forma-32)
+
+<br/>
+
 ## 02 / Operating range
 
 **PRODUCT ENGINEERING** — `TypeScript` `React` `Next.js` `React Native`
