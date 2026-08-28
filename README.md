@@ -47,6 +47,16 @@ A Croatian pet-services marketplace with authentication, bookings, realtime mess
 
 <br/>
 
+<sub>01.3 / NEXT.JS · MARINA OPERATIONS · PRODUCT</sub>
+
+### [MarinaFlow Launch Desk →](https://marinaflow-three.vercel.app/)
+
+A fixture-backed operations desk that turns vessel readiness, incidents, ownership, and departures into a clear daily launch workflow across marina bases and desk dates.
+
+> **Workflow proof:** readiness classification · incident triage · owner assignment · departure board · multi-base/day scenario controls
+
+<br/>
+
 ### Supporting builds
 
 **[PetPark Mobile →](https://github.com/Ljemicus/petpark-mobile-hr)** — Expo and React Native companion application carrying the PetPark product language from web to mobile.
