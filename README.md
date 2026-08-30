@@ -5,8 +5,6 @@
 <p align="center">
   <a href="https://ljemicus.vercel.app"><strong>Selected work ↗</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/niko-miljani%C4%87-bab97929a"><strong>LinkedIn ↗</strong></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://github.com/Ljemicus/document-migration-pipeline"><strong>Migration pipeline ↗</strong></a>
 </p>
 
@@ -112,5 +110,5 @@ A fixture-backed operations desk that turns vessel readiness, incidents, ownersh
 <p align="center">
   For migration engineering, integrations, product delivery, or workflow automation,<br/>
   start with the <a href="https://github.com/Ljemicus/document-migration-pipeline"><strong>document migration pipeline</strong></a>
-  or connect on <a href="https://www.linkedin.com/in/niko-miljani%C4%87-bab97929a"><strong>LinkedIn</strong></a>.
+  or review the <a href="https://ljemicus.vercel.app"><strong>selected work</strong></a>.
 </p>
